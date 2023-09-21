@@ -13,12 +13,15 @@ should return: 160 (the only even number)
 
 let arr = [160, 3, 1719, 19, 11, 13, -21]
 
+// Solution 1
+
 function retOutlier(arr){
     let even = arr.filter(a => a%2 == 0);
     let odd = arr.filter(a => a%2 == 0);
     return even.length == 1 ? even[0] : odd[0]
 }
 
+// Solution 2
 
 function findOutlier(int){
 
