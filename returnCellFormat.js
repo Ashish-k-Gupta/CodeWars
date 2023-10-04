@@ -19,6 +19,6 @@ function createPhoneNumber(numbers){
       format = format.replace('x', numbers[i]);
     }
     
-    return format;
+    return format;
   }
 
